@@ -117,13 +117,127 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="bindingConfiguration.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>4, 5</value>
-  </metadata>
-  <metadata name="CalculatinTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>238, 6</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>191</value>
-  </metadata>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="NoProxy" xml:space="preserve">
+    <value>No proxy</value>
+  </data>
+  <data name="SOCKS5" xml:space="preserve">
+    <value>SOCKS5</value>
+  </data>
+  <data name="HTTP" xml:space="preserve">
+    <value>HTTP</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Timeout (sec)</value>
+  </data>
+  <data name="CredentialsOptional" xml:space="preserve">
+    <value>Credentials (optional)</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="saveButton_Content" xml:space="preserve">
+    <value>_Save</value>
+  </data>
+  <data name="cancelButton_Content" xml:space="preserve">
+    <value>_Cancel</value>
+  </data>
+  <data name="okButton_Content" xml:space="preserve">
+    <value>_OK</value>
+  </data>
+  <data name="ToggleSystemProxy" xml:space="preserve">
+    <value>Toggle system proxy</value>
+  </data>
+  <data name="ToggleProxyMode" xml:space="preserve">
+    <value>Toggle proxy mode</value>
+  </data>
+  <data name="AllowClientsFromLAN" xml:space="preserve">
+    <value>Allow clients from LAN</value>
+  </data>
+  <data name="OpenLogsWindow" xml:space="preserve">
+    <value>Open logs window</value>
+  </data>
+  <data name="SwitchToPreviousServer" xml:space="preserve">
+    <value>Switch to previous server</value>
+  </data>
+  <data name="SwitchToNextServer" xml:space="preserve">
+    <value>Switch to next server</value>
+  </data>
+  <data name="RegisterHotkeysAtStartup" xml:space="preserve">
+    <value>Register hotkeys at startup</value>
+  </data>
+  <data name="registerAllButton_Content" xml:space="preserve">
+    <value>_Register all</value>
+  </data>
+  <data name="updateButton_Content" xml:space="preserve">
+    <value>_Update</value>
+  </data>
+  <data name="updateAllButton_Content" xml:space="preserve">
+    <value>Update all</value>
+  </data>
+  <data name="copyLinkButton_Content" xml:space="preserve">
+    <value>_Copy link</value>
+  </data>
+  <data name="removeButton_Content" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="addButton_Content" xml:space="preserve">
+    <value>_Add</value>
+  </data>
+  <data name="updatePromptTitle" xml:space="preserve">
+    <value>An update is available.</value>
+  </data>
+  <data name="updatePromptBody" xml:space="preserve">
+    <value>Please read the release notes carefully. Then decide whether to update.</value>
+  </data>
+  <data name="skipVersionButton_Content" xml:space="preserve">
+    <value>_Skip version</value>
+  </data>
+  <data name="notNowButton_Content" xml:space="preserve">
+    <value>_Not now</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>_Copy</value>
+  </data>
+  <data name="ForwardProxy" xml:space="preserve">
+    <value>Forward Proxy</value>
+  </data>
+  <data name="ServerSharing" xml:space="preserve">
+    <value>Server Sharing</value>
+  </data>
+  <data name="Hotkeys" xml:space="preserve">
+    <value>Hotkeys</value>
+  </data>
+  <data name="OnlineConfigDelivery" xml:space="preserve">
+    <value>Online Configuration Delivery</value>
+  </data>
+  <data name="VersionUpdate" xml:space="preserve">
+    <value>VersionUpdate</value>
+  </data>
+  <data name="sip008UpdateSuccess" xml:space="preserve">
+    <value>Successfully updated the selected source!</value>
+  </data>
+  <data name="sip008UpdateFailure" xml:space="preserve">
+    <value>Update failed. See the logs for more information.</value>
+  </data>
+  <data name="sip008UpdateAllSuccess" xml:space="preserve">
+    <value>Successfully updated all sources!</value>
+  </data>
+  <data name="sip008UpdateAllFailure" xml:space="preserve">
+    <value>The following sources failed to update:\n\n</value>
+  </data>
 </root>

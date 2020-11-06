@@ -107,9 +107,6 @@ namespace Shadowsocks.View
             InitializeComponent();
             EncryptionSelect.Items.AddRange(EncryptionMethod.AllMethods);
 
-            // a dirty hack
-            ServersListBox.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Dock = DockStyle.Fill;
             PerformLayout();
 
             UpdateTexts();
@@ -206,6 +203,7 @@ namespace Shadowsocks.View
                     plugin_args = PluginArgumentsTextBox.Text,
                     remarks = RemarksTextBox.Text,
                     timeout = timeout.Value,
+                    group = GroupTextBox.Text
                 };
 
                 return true;
@@ -312,7 +310,7 @@ namespace Shadowsocks.View
         {
             password = null;
             string outPassword;
-            if ((outPassword = PasswordTextBox.Text).IsNullOrWhiteSpace())
+            if (string.IsNullOrWhiteSpace(outPassword = PasswordTextBox.Text))
             {
                 if (!isSave && !isCopy && ServersListBox.Items.Count > 1 && I18N.GetString("New server").Equals(ServersListBox.Items[_lastSelectedIndex].ToString()))
                 {
@@ -413,6 +411,8 @@ namespace Shadowsocks.View
             RemarksTextBox.Text = server.remarks;
             TimeoutTextBox.Text = server.timeout.ToString();
 
+            GroupTextBox.Text = server.group;
+
             isChange = false;
         }
 
@@ -433,7 +433,7 @@ namespace Shadowsocks.View
 
         private void LoadCurrentConfiguration()
         {
-            _modifiedConfiguration = controller.GetConfigurationCopy();
+            _modifiedConfiguration = controller.GetCurrentConfiguration();
             LoadServerNameListToUI(_modifiedConfiguration);
 
             _lastSelectedIndex = _modifiedConfiguration.index;
